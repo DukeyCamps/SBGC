@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href = "s_main.css" rel = "stylesheet">
+    <meta charset="utf-8">
+    <title>SBGC</title>
+  </head>
+<script type="text/javascript">
+
+
+function timeChange(){
+  var today = new Date();
+  var hr = today.getHours();
+  var mn = today.getMinutes();
+  var sc = today.getSeconds();
+
+  hr = checkTime(hr)
+  mn = checkTime(mn)
+  sc = checkTime(sc)
+
+  document.getElementById('hr').innerHTML = hr;
+  document.getElementById('mn').innerHTML = mn;
+  document.getElementById('sc').innerHTML = sc;
+
+  var t = setTimeout(timeChange, 500);
+  console.log("changed time")
+}
+
+function checkTime(el_id){
+
+  if(10 > el_id){
+      el_id = "0"+el_id.toString();
+                }
+  return el_id;
+}
+
+</script>
+<body onload = "timeChange()">
+
+<div class = "spacer">
+  <div class = 'master'>
+<div class="cw" id="hr">00</div><h2>:</h2><div class="cw" id="mn">00</div><h2>:</h2><div class="cw" id="sc">00</div>
+  </div>
+</div>
+
+
+
+  </body>
+</html>

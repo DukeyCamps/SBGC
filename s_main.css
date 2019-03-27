@@ -1,0 +1,39 @@
+body{
+  background-color: #353b48;
+  margin: 0% 0%;
+
+}
+h2{
+  color:#fff;
+  font-size: 50px;
+  font-family: helvetica;
+  display:inline;
+}
+.spacer{
+margin: 23% 40%;
+}
+.master{
+text-align: center;
+}
+.cw{
+font-family: helvetica;
+text-align: center;
+position: relative;
+margin-left: 4px;
+margin-right: 4px;
+width: 80px;
+height: 80px;
+display: inline;
+font-size:50px;
+color:#fff;
+padding:15px;
+}
+
+@fontface
+{
+font-family: 'bebasneue';
+    src: url('bebas.woff2') format('woff2'),
+         url('bebas.woff') format('woff');
+    font-weight: normal;
+	font-style: normal;
+}
