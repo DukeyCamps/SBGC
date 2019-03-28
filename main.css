@@ -2,6 +2,7 @@ body{
 background: #1e272e;
 }
 .Day_B{
+    box-shadow: 0px 5px 8px 2px #000000;
 padding-left:20px;
 font-size:40px;
 text-align: center;
@@ -13,6 +14,8 @@ vertical-align: middle;
 line-height: 100px;
 }
 .Date_B{
+    box-shadow: 0px 5px 8px 2px #000000;
+
 font-size: 40px;
 text-align: center;
 display:inline-block;
@@ -27,7 +30,7 @@ height:70px;
 line-height: 70px;
 }
 .CurrentTime_B{
-
+    box-shadow: 0px 5px 8px 2px #000000;
 font-size:35px;
 text-align: center;
 vertical-align: middle;
@@ -43,6 +46,7 @@ width:100px;
 height:70px;
 }
 .AC_B{
+    box-shadow: 10px 10px 10px 5px #000000;
 font-size:70px;
 text-align: center;
 margin-top:250px;
@@ -53,6 +57,7 @@ margin-right: 40%;
 
 }
 .AT_B{
+    box-shadow: 10px 10px 10px 5px #000000;
 font-size:43px;
 text-align: center;
 margin-top:25px;
@@ -64,6 +69,7 @@ margin-right: 28%;
 }
 
 .TN_B{
+    box-shadow: 5px 10px 5px 5px #000000;
 font-size:40px;
 text-align: center;
 display:block;
