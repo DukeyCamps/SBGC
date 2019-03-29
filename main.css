@@ -1,20 +1,22 @@
 body{
 background: #1e272e;
+background-image: linear-gradient(141deg, #1e272e 0%, #2C3A47 51%, #1e272e 75%);
 }
 .Day_B{
-    box-shadow: 0px 5px 8px 2px #000000;
+box-shadow: 0px 5px 8px 2px #000000;
 padding-left:20px;
 font-size:40px;
 text-align: center;
 display:inline-block;
-background-color:#c0392b;
+background-color:#c82333;
+border-color:#bd2130;
 padding-right:30px;
 height:100px;
 vertical-align: middle;
 line-height: 100px;
 }
 .Date_B{
-    box-shadow: 0px 5px 8px 2px #000000;
+box-shadow: 0px 5px 8px 2px #000000;
 
 font-size: 40px;
 text-align: center;
@@ -25,12 +27,12 @@ padding-left:10px;
 
 margin-right:0px;
 padding-right:0px;
-background-color:#c0392b;
+background-color:#c82333;
 height:70px;
 line-height: 70px;
 }
 .CurrentTime_B{
-    box-shadow: 0px 5px 8px 2px #000000;
+box-shadow: 5px 5px 8px 2px #000000;
 font-size:35px;
 text-align: center;
 vertical-align: middle;
@@ -39,100 +41,134 @@ position:absolute;
 line-height: 70px;
 right:0;
 margin-top:80px;
-padding-right:110px;
-padding-left:10px;
-background-color:#c0392b;
+padding-right:210px;
+padding-left:40px;
+background-color:#c82333;
 width:100px;
 height:70px;
 }
 .AC_B{
-    box-shadow: 10px 10px 10px 5px #000000;
-font-size:70px;
-text-align: center;
-margin-top:250px;
-background-color:#c0392b;
-padding: 1.7%;
-margin-left: 40%;
-margin-right: 40%;
 
+font-size:400px;
+text-align: center;
+margin-top:100px;
+/*
+background-color:#c82333;
+box-shadow: 10px 10px 10px 5px #000000;
+padding: 0%;
+margin-left: 42%;
+margin-right: 42%;
+*/
+font-family:hackreg;
 }
 .AT_B{
-    box-shadow: 10px 10px 10px 5px #000000;
-font-size:43px;
+
+font-size:50px;
 text-align: center;
-margin-top:25px;
-background-color:#c0392b;
-padding: 1%;
-margin-left: 28%;
-margin-right: 28%;
+margin-top:15px;
+/*background-color:#c82333;
+box-shadow: 10px 10px 10px 5px #000000;
+*/
+padding: 0.01%;
+margin-left: 34%;
+margin-right: 34%;
 
 }
 
 .TN_B{
-    box-shadow: 5px 10px 5px 5px #000000;
+box-shadow: 5px 10px 5px 8px #000000;
 font-size:40px;
 text-align: center;
 display:block;
 position:absolute;
 bottom:0;
 left:0;
-background-color:#c0392b;
+background-color:#c82333;
 height:60px;
 width:100%;
 vertical-align: middle;
 line-height: 60px;
+font-family: hackreg;
 }
 
 .colorinator{
-    color:#fff;
-    font-family: bebas;
-}
-
-
-@font-face {
-    font-family: 'star_jediregular';
-    src: url('starjedi-webfont.woff2') format('woff2'),
-         url('starjedi-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+color:#fff;
+font-family: lolgothic;
 }
 
 
 
 
 @font-face {
-    font-family: 'lemonmilkregular';
-    src: url('lemonmilk-webfont.woff2') format('woff2'),
-         url('lemonmilk-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'hackreg';
+src: url('hack-regular-webfont.woff2') format('woff2'),
+url('hack-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 
 }
 
 
 @font-face {
-    font-family: 'bebas';@font-face {
-        font-family: 'lemonmilkregular';
-        src: url('lemonmilk-webfont.woff2') format('woff2'),
-             url('lemonmilk-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    
-    }
-    src: url('bebas.woff2') format('woff2'),
-         url('bebas.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'hack';
+src: url('hack-bold-webfont.woff2') format('woff2'),
+url('hack-bold-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+@font-face {
+font-family: 'lolgothic';
+src: url('LetterGothicStd.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'star_jediregular';
+src: url('starjedi-webfont.woff2') format('woff2'),
+url('starjedi-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+
+
+
+
+@font-face {
+font-family: 'lemonmilkregular';
+src: url('lemonmilk-webfont.woff2') format('woff2'),
+url('lemonmilk-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+
+
+@font-face {
+font-family: 'bebas';@font-face {
+font-family: 'lemonmilkregular';
+src: url('lemonmilk-webfont.woff2') format('woff2'),
+   url('lemonmilk-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+src: url('bebas.woff2') format('woff2'),
+url('bebas.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 
 
 }
 #hr{
-    display: inline;
+display: inline;
 }
 #mn{
-    display: inline;
+display: inline;
 }
 #sc{
-    display: inline;
+display: inline;
 }
