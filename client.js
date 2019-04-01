@@ -194,5 +194,23 @@ function HIDECLOCK()
 //TO BE IMPLEMENTED:
 /*
 //use color #c82333 as primary RED
+  var mm = today.getMonth() + 1
+//check date array types
+//transitions support
+//an array for weekdates which brings out
+//different dates
 
+  scheduler(7, 45, 8, 30, "class", 1)
+  scheduler(8, 30, 8, 35, "break")
+  scheduler(8, 35, 9, 20, "class", 2)
+  scheduler(9, 20, 9, 35, "break")
+  scheduler(9, 35, 10, 20, "class", 3)
+  scheduler(10, 20, 10, 25, "break")
+  scheduler(10, 25, 11, 10, "class", 4)
+  scheduler(11, 10, 11, 20, "break")
+  scheduler(11, 20, 12, 05, "class", 5)
+  scheduler(12, 05, 12, 10, "break")
+  scheduler(12, 10, 12, 55, "class", 6)
+  scheduler(12, 55, 13, 00, "break")
+  scheduler(13, 00, 13, 45, "class", 7)
 */
