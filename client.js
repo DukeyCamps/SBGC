@@ -10,33 +10,33 @@ function __main__()
   loopit()
 }
 function scheduleChange(){
-  scheduler(14, 00, 14, 45, "class", 1)
-  scheduler(14, 45, 14, 50, "break", 99)
-  scheduler(14, 50, 15, 35, "class", 2)
-  scheduler(15, 35, 15, 50, "break", 99)
-  scheduler(15, 50, 16, 35, "class", 3)
-  scheduler(16, 35, 16, 40, "break", 99)
-  scheduler(16, 40, 17, 25, "class", 4)
-  scheduler(17, 25, 17, 35, "break", 99)
-  scheduler(17, 35, 18, 20, "class", 5)
-  scheduler(18, 20, 18, 25, "break", 99)
-  scheduler(18, 25, 19, 10, "class", 6)
-  scheduler(19, 10, 19, 15, "break", 99)
-  scheduler(19, 15, 20, 00, "class", 7)
+  scheduler(14, 00, 14, 45, "class", 1);
+  scheduler(14, 45, 14, 50, "break", 99);
+  scheduler(14, 50, 15, 35, "class", 2);
+  scheduler(15, 35, 15, 50, "break", 99);
+  scheduler(15, 50, 16, 35, "class", 3);
+  scheduler(16, 35, 16, 40, "break", 99);
+  scheduler(16, 40, 17, 25, "class", 4);
+  scheduler(17, 25, 17, 35, "break", 99);
+  scheduler(17, 35, 18, 20, "class", 5);
+  scheduler(18, 20, 18, 25, "break", 99);
+  scheduler(18, 25, 19, 10, "class", 6);
+  scheduler(19, 10, 19, 15, "break", 99);
+  scheduler(19, 15, 20, 00, "class", 7);
 
-  scheduler(7, 45, 8, 30, "class", 1)
-  scheduler(8, 30, 8, 35, "break")
-  scheduler(8, 35, 9, 20, "class", 2)
-  scheduler(9, 20, 9, 35, "break")
-  scheduler(9, 35, 10, 20, "class", 3)
-  scheduler(10, 20, 10, 25, "break")
-  scheduler(10, 25, 11, 10, "class", 4)
-  scheduler(11, 10, 11, 20, "break")
-  scheduler(11, 20, 12, 05, "class", 5)
-  scheduler(12, 05, 12, 10, "break")
-  scheduler(12, 10, 12, 55, "class", 6)
-  scheduler(12, 55, 13, 00, "break")
-  scheduler(13, 00, 13, 45, "class", 7)
+  scheduler(7, 45, 8, 30, "class", 1);
+  scheduler(8, 30, 8, 35, "break");
+  scheduler(8, 35, 9, 20, "class", 2);
+  scheduler(9, 20, 9, 35, "break");
+  scheduler(9, 35, 10, 20, "class", 3);
+  scheduler(10, 20, 10, 25, "break");
+  scheduler(10, 25, 11, 10, "class", 4);
+  scheduler(11, 10, 11, 20, "break");
+  scheduler(11, 20, 12, 05, "class", 5);
+  scheduler(12, 05, 12, 10, "break");
+  scheduler(12, 10, 12, 55, "class", 6);
+  scheduler(12, 55, 13, 00, "break");
+  scheduler(13, 00, 13, 45, "class", 7);
 }
 
 function loopit()

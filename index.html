@@ -1,50 +1,45 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href = "s_main.css" rel = "stylesheet">
-    <meta charset="utf-8">
-    <title>SBGC</title>
-  </head>
-<script type="text/javascript">
+<!DOCTYPE <!DOCTYPE html>
+<html>
 
 
-function timeChange(){
-  var today = new Date();
-  var hr = today.getHours();
-  var mn = today.getMinutes();
-  var sc = today.getSeconds();
 
-  hr = checkTime(hr)
-  mn = checkTime(mn)
-  sc = checkTime(sc)
 
-  document.getElementById('hr').innerHTML = hr;
-  document.getElementById('mn').innerHTML = mn;
-  document.getElementById('sc').innerHTML = sc;
 
-  var t = setTimeout(timeChange, 500);
-  console.log("changed time")
-}
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>__sbgc__</title>
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
 
-function checkTime(el_id){
 
-  if(10 > el_id){
-      el_id = "0"+el_id.toString();
-                }
-  return el_id;
-}
+<body class ="colorinator" onload="__main__()">
+<script src="client.js"></script>
 
-</script>
-<body onload = "timeChange()">
 
-<div class = "spacer">
-  <div class = 'master'>
-<div class="cw" id="hr">00</div><h2>:</h2><div class="cw" id="mn">00</div><h2>:</h2><div class="cw" id="sc">00</div>
-  </div>
+
+<div class = "PLACEHOLDERAWESOME" id = "everything">
+
+<div class = "Day_B" id = "dayL" >Monday</div>
+
+<div class = "Date_B"><p id = "dt">15.06.2019</p></div>
+
+<div class = "CurrentTime_B"><p id = "hr">00</p>:<p id = "mn">00</p>:<p id ="sc">00</p></div>
+
+<div class = "AC_B"><p id = "TIMELEFT">17:59</p></div>
+
+<div class = "AT_B" id = "TIMEEVENT">Do kraja 4. casa</div>
+
+<div class = "footer TN_B">Lorem ipsum dolor sit amet</div>
+
 </div>
 
+</body>
 
 
-  </body>
+
+
+
+
+
 </html>
