@@ -10,19 +10,6 @@ function __main__()
   loopit()
 }
 function scheduleChange(){
-  scheduler(14, 00, 14, 45, "class", 1);
-  scheduler(14, 45, 14, 50, "break", 99);
-  scheduler(14, 50, 15, 35, "class", 2);
-  scheduler(15, 35, 15, 50, "break", 99);
-  scheduler(15, 50, 16, 35, "class", 3);
-  scheduler(16, 35, 16, 40, "break", 99);
-  scheduler(16, 40, 17, 25, "class", 4);
-  scheduler(17, 25, 17, 35, "break", 99);
-  scheduler(17, 35, 18, 20, "class", 5);
-  scheduler(18, 20, 18, 25, "break", 99);
-  scheduler(18, 25, 19, 10, "class", 6);
-  scheduler(19, 10, 19, 15, "break", 99);
-  scheduler(19, 15, 20, 00, "class", 7);
 
   scheduler(7, 45, 8, 30, "class", 1);
   scheduler(8, 30, 8, 35, "break");
@@ -37,6 +24,60 @@ function scheduleChange(){
   scheduler(12, 10, 12, 55, "class", 6);
   scheduler(12, 55, 13, 00, "break");
   scheduler(13, 00, 13, 45, "class", 7);
+
+  scheduler(14, 00, 14, 45, "class", 1);
+  scheduler(14, 45, 14, 50, "break", 99);
+  scheduler(14, 50, 15, 35, "class", 2);
+  scheduler(15, 35, 15, 50, "break", 99);
+  scheduler(15, 50, 16, 35, "class", 3);
+  scheduler(16, 35, 16, 40, "break", 99);
+  scheduler(16, 40, 17, 25, "class", 4);
+  scheduler(17, 25, 17, 35, "break", 99);
+  scheduler(17, 35, 18, 20, "class", 5);
+  scheduler(18, 20, 18, 25, "break", 99);
+  scheduler(18, 25, 19, 10, "class", 6);
+  scheduler(19, 10, 19, 15, "break", 99);
+  scheduler(19, 15, 20, 00, "class", 7);
+
+
+
+
+  //BLANKED
+  var today = new Date();
+  var hr = today.getHours();
+  var mn = today.getMinutes();
+  var sc = today.getSeconds();
+
+  nowTime = hr * 3600 + mn * 60 + sc
+
+  //BLANKED
+  if(nowTime < 27900 || nowTime > 72000)//IF THE TIME IS NOT BETWEEN 7:45 and 20:00 disable all documents
+
+  {
+  var divs = ["DAY_B", "DATE_B", "CurrentTime_B", "TN_B","AC_B","AT_B"]
+  var m;
+  for(m = 0; m < divs.length; m++){
+  var x = document.getElementsByClassName(divs[m]);
+  var i;
+  for (i = 0; i < x.length; i++) {
+  x[i].style.visibility = "hidden";
+  console.log("HIDE ME") 
+}
+}
+}
+else{
+  var divs = ["DAY_B", "DATE_B", "CurrentTime_B", "TN_B","AC_B","AT_B"]
+  var m;
+  for(m = 0; m < divs.length; m++){
+  var x = document.getElementsByClassName(divs[m]);
+  var i;
+  for (i = 0; i < x.length; i++) {
+  x[i].style.visibility = "visible";
+  console.log("show me")
+}
+  }
+}
+  //BLANKED
 }
 
 function loopit()
@@ -54,6 +95,7 @@ var x = document.getElementsByClassName(divs[m]);
 var i;
 for (i = 0; i < x.length; i++) {
   x[i].style.backgroundColor = hexcolor;
+  
 }
 }
 
